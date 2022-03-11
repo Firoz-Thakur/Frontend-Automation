@@ -18,7 +18,7 @@ public class Calender {
 		{
 			driver.findElementByXPath("//body[1]/div[6]/div[1]/table[1]/thead[1]/tr[1]/th[3]").click();
 			String date = driver.findElementByXPath("/html[1]/body[1]/div[6]/div[1]/table[1]/thead[1]/tr[1]/th[2]").getText();
-		    System.out.print(date);
+		  //  System.out.print(date);
 			if(date.equals("June 2022"))
 			{
 			    
