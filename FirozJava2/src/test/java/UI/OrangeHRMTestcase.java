@@ -1,4 +1,4 @@
-package ui;
+package UI;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 
