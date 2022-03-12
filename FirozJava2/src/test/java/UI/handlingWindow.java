@@ -19,8 +19,13 @@ public class handlingWindow {
 		Set<String> IDs = driver.getWindowHandles();
 		for(String id : IDs)
 		{
-			String idOfCurrentWindow = driver.switchTo().window(id).getTitle();
-			System.out.println(idOfCurrentWindow);
+			String TitleOfCurrentWindow = driver.switchTo().window(id).getTitle();
+			System.out.println(TitleOfCurrentWindow);
+			if(TitleOfCurrentWindow.equals("Jobs - Recruitment - Job Search - Employment - Job Vacancies - Naukri.com"))
+			{
+				driver.close();
+			}
+			
 		}
 		
 	}
