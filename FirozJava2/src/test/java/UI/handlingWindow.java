@@ -20,7 +20,7 @@ public class handlingWindow {
 		for(String id : IDs)
 		{
 			String TitleOfCurrentWindow = driver.switchTo().window(id).getTitle();
-			System.out.println(TitleOfCurrentWindow);
+			System.out.println(TitleOfCurrentWindow);//the  title of 2nd window is changing again and again
 			if(TitleOfCurrentWindow.equals("Jobs - Recruitment - Job Search - Employment - Job Vacancies - Naukri.com"))
 			{
 				driver.close();
