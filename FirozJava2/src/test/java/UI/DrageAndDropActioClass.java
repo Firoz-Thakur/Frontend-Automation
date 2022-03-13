@@ -21,6 +21,8 @@ public class DrageAndDropActioClass {
 		Actions act = new Actions(driver);
 		act.clickAndHold(source).moveToElement(target).release().build().perform();
 		
+		act.dragAndDrop(source, target).build().perform();
+		
 		
 		
 	}
