@@ -20,7 +20,7 @@ public class ATMScenarios {
             WebElement withdrawButton = driver.findElement(By.id("withDrawButton"));
             withdrawButton.click();
             WebElement successMessage = driver.findElement(By.id("successMessage"));
-            System.out.println(successMessage.getText()); // Print the success message
+            System.out.println(successMessage.getText());
 
         } catch(Exception exception )
         {
